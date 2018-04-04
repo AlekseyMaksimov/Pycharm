@@ -13,3 +13,4 @@ print('*'* 25)
 
 for _element in salary_zip:
     print(_element)
+
