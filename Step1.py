@@ -6,11 +6,7 @@ salary = [
 
 
 for _element in salary:
-    print(_element)
-
-salary_zip = list(zip(*salary))
-print('*'* 25)
-
-for _element in salary_zip:
-    print(_element)
+    worker = _element.pop(0)
+    salary_avg = sum(_element) / len(_element)
+    print(f'{worker:12} {salary_avg:.2f} руб')
 
